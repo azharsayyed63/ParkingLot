@@ -1,0 +1,39 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "Parking lot",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "nyc --reporter=html --reporter=text node scripts/test.js",
+    "test-unit": "mocha tests/specs.js",
+    "test-lint": "node scripts/test-lint.js",
+    "test-system": "mocha scripts/test-system.js",
+    "file-mode": "node src/index.js",
+    "build": "node scripts/build.js",
+    "create-docs": "node scripts/create-docs.js",
+    "help": "node src/config/config.js"
+  },
+  "keywords": [
+    "parking",
+    "lot",
+    "gojek",
+    "nodejs"
+  ],
+  "author": "Azhar Sayyed <sayyedazhar1712@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "3.1.0",
+    "chai": "4.2.0",
+    "chalk": "3.0.0",
+    "eslint": "6.6.0",
+    "nyc": "14.1.1",
+    "parse-gitignore": "1.0.1",
+    "pkg": "4.4.0",
+    "recursive-readdir-synchronous": "0.0.4",
+    "shelljs": "0.8.3"
+  }
+}

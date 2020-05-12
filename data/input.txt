@@ -1,0 +1,14 @@
+create_parking_lot 50
+park KA-01-HH-1234 Car
+park KA-01-HH-9999 Bike
+park KA-01-BB-0001 Car
+park KA-01-HH-7777 Bus
+leave 4
+leave 5
+status
+park KA-01-P-333 Car
+park DL-12-AA-9999 Car
+registration_numbers_for_vehicles_with_type Car
+slot_numbers_for_vehicles_with_type Car
+slot_number_for_registration_number KA-01-HH-1234
+slot_number_for_registration_number MH-04-AY-1111
